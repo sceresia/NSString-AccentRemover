@@ -7,8 +7,10 @@ Returns an NSString with any accented characters replaced with standard English 
 
 Usage:
 
+<pre>
 NSString *oldString = @""hèllo""
 
 NSString *newString = [oldString removeAccents];
 
 NSLog(@"%@",newString); // hello
+</pre>
